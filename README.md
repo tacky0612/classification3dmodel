@@ -46,6 +46,9 @@ STL
   Please run "Classification_3DSAMPLE.ipynb" with Jupyter notebook.  
   It classifies 3D models.  
   
+  Using this architecture.
+  <img src="https://github.com/tacky0612/classification3dmodel/blob/master/figure/fig4.png" title="arch">
+  
   ↓　Accuracy　↓  
   
   | ModelNet10 | ModelNet40 | My dataset(3D_SAMPLE) |
