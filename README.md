@@ -18,6 +18,10 @@ scikit-learn  0.20.0
 tqdm  4.26.0
 ```
 
+# Corresponding file format
+OFF  
+STL
+
 # How to use
 - 3DCAD models data download  
   ModelNet10/40 downlod  
