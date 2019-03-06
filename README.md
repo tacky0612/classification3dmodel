@@ -19,8 +19,8 @@ tqdm  4.26.0
 ```
 
 # Corresponding file format
-OFF  
-STL
+- OFF  
+- STL
 
 # How to use
 - 3DCAD models data download  
@@ -34,6 +34,7 @@ STL
 - Convert 3DCAD model to voxels  
   Please run "make_npy_file.ipynb" with Jupyter notebook.  
   It converts the 3D data to voxels.
+  Then, t is saved as numpy
 
 - Voxel visualization  
   Please run "vis.ipynb" with Jupyter notebook.
