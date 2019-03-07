@@ -15,9 +15,9 @@ class Config():
         tensorboard = TensorBoard(log_dir=log_dir, write_graph=True, )
         return tensorboard
     
-#     DATASET = "ModelNet10"
+    DATASET = "ModelNet10"
 #     DATASET = "ModelNet40"
-    DATASET = "3D_SAMPLE"
+#     DATASET = "3D_SAMPLE"
     
     
     N_POINTS = 10000
