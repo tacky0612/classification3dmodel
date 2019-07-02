@@ -136,7 +136,7 @@ class Config():
         ]
         
         
-    VOX_DIR = "np_vox/" + DATASET + "/cell" + str(CELL) + "/"
+    VOX_DIR = "np_vox2/" + DATASET + "/cell" + str(CELL) + "/"
     FIG_DIR =  "figure/"+ DATASET + "/cell" + str(CELL) + "/"
     WEIGHTS_DIR = "weights/" + DATASET + "/cell" + str(CELL) + "/"
     MODEL_DIR = "model/"+ DATASET + "/cell" + str(CELL) + "/"
