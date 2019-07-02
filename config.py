@@ -15,8 +15,8 @@ class Config():
         tensorboard = TensorBoard(log_dir=log_dir, write_graph=True, )
         return tensorboard
     
-    DATASET = "ModelNet10"
-#     DATASET = "ModelNet40"
+#     DATASET = "ModelNet10"
+    DATASET = "ModelNet40"
 #     DATASET = "3D_SAMPLE"
     
     
@@ -136,7 +136,7 @@ class Config():
         ]
         
         
-    VOX_DIR = "np_vox2/" + DATASET + "/cell" + str(CELL) + "/"
+    VOX_DIR = "np_vox/" + DATASET + "/cell" + str(CELL) + "/"
     FIG_DIR =  "figure/"+ DATASET + "/cell" + str(CELL) + "/"
     WEIGHTS_DIR = "weights/" + DATASET + "/cell" + str(CELL) + "/"
     MODEL_DIR = "model/"+ DATASET + "/cell" + str(CELL) + "/"
